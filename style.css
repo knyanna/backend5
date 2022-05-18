@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    border: 1px solid rgba(168, 210, 227, 1);
+    border-radius: 10px;
+    width: 600px;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-container .form-title {
+    align-self: flex-start;
+    font-size: 22px;
+    color: #0b5ed7;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(168, 210, 227, 1);
+    display: block;
+    width: 100%;
+}
+
+.input-group, .form-check, #send-btn {
+    margin: 15px 0;
+}
+
+#gender-block, #limbs-block {
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#gender-block, #limbs-block {
+    padding: 0px;
+}
+
+#limbs-block .block-title {
+    margin-right: 5px;
+}
+
+#send-btn {
+    display: block;
+    width: 100%;
+}
+
+#limbs-block .row, #limbs-block .limbs, .genders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.genders {
+    justify-content: flex-start;
+}
+
+.genders>div {
+    margin-right: 50px;
+}
+
+#limbs-block .limbs, .genders {
+    padding-left: 25px;
+    padding-right: 10px;
+    width: 100%;
+}
